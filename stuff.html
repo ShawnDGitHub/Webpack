@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head><title>物品</title>
+      <meta charset="utf-8" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+      <link href="./css/Phone_stuff.css"  rel="stylesheet">
+      <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+
+        <script>
+            $(document).ready(function(){
+                
+            });
+
+        </script>
+
+    </head>
+
+    <body>  
+        <div class="search">
+            <div id="searchBar">
+                <div id="searchIcon"></div>
+                <input id="searchStuff" type="text" placeholder=" 查找 ... " onclick="searchEx()" onblur="ExBack()">
+            </div>
+           
+            <div id="searchPage">
+                <div id="line"></div>
+                <div id="cover"></div>     
+            </div>
+        </div>
+
+        <div class="aboveContext1"></div>
+
+         <div class="context0">
+            
+            <div class="for">
+                <!-- <div> -->
+                <div id="Til_0">请输入分类标签。</div>
+                <input type="text" id="input0" name="label" onkeyup="label()">
+                 <div id="Til_1">请记录名称。</div>
+                 <input type="text" id="input1" name="name" onclick="input()" onkeydown="cleX()">
+                   
+                  <div id="Til_2">上传图片。</div>
+                  <div id="upload">&nbsp;&nbsp;&nbsp;&nbsp;选择</div>
+                  <input type="file" id="inputPic" name="picture">
+                  <div id="white"></div>
+                    <div id="Til_3">其记忆出现日。</div>
+                    <div class="datePicker">选择日期</div>
+                    <div id="outTime"></div>
+                                   
+                <div class="delBar">
+                    <div id="del" onclick="uncreate()">✖</div>
+                    <div id="bottomTitle">添加单</div>
+                </div>
+            <!-- </div> -->
+            </div>
+            <div id="mention0">!&nbsp;&nbsp;标签过长</div>
+            <div id="sub">✔</div>
+
+           <div class="detail">
+               <div id="text">收集从这里开始</div>
+           </div>
+
+           
+           <div id="add" onclick="create()">添&nbsp;加</div>
+         </div>
+
+         
+
+
+
+
+
+            <div class="titleBar">
+                <div id="title">主页</div>
+
+            </div>
+            <div id="show"></div>
+                    <div class="bottom"></div>
+
+
+    <script type="text/javascript" charset="utf-8" src="./js/stuff.js"></script>
+    </body></html>

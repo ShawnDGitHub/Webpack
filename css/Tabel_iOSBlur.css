@@ -1,0 +1,22 @@
+.titlebar {
+    padding: 0.69rem 6rem;
+    display: flex;
+    align-items: center;
+    background-color: gray;
+}
+
+#title {
+    font-size: 1rem;
+    font-weight:lighter;
+    color: bisque;
+    display: flex;
+    align-items: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{font-size:16px}
